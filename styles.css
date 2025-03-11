@@ -16,8 +16,6 @@ body {
 
 .app-container {
     width: 100%;
-    max-width: 900px;
-    height: 600px;
     position: relative;
     border-radius: 15px;
     overflow: hidden;
