@@ -3,179 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href= "style.css">
-    <link rel="icon" href="./Assets/logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Mumma's Kitchen: Delicious food</title>
+    <title>Bloom - From Crampy to Happy</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="head">
-        <p class="topic">Mumma's Kitchen</p>
-        <div class="sticky-nav-options">
-            <button>Login</button>
-            <button>Signup</button>
-            <img src="./Assets/logo.png" class="logo">
-        </div>
-    </div>
-
-
-    <div class="image">
+    <div class="app-container">
+        <div class="background"></div>
+        <div class="sparkles"></div>
         
-        <div class="nav-bar">
-            <a href="#">Home</a>
-            <a href="#">Menu</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact</a>
+        <div class="header">
+            <div class="logo">
+                <h1>Bloom</h1>
+                <span>From Crampy to Happy, We've Got You Covered.</span>
+            </div>
+            <div class="nav-links">
+                <a href="#">About Us</a>
+                <a href="#">Login / Sign Up</a>
+                <div class="profile-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#8C527B" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+            </div>
         </div>
-         <div class="introduction">
-            <p class="tag-line">Ghar Ka Swaad</p>
-            <p>Welcome to Mumma's Kitchen.</p> 
-            <p>We are a cloud kitchen that serves all organic and GMO free food and</p>
-            <p>are committed to deliver the freshest food to our customers...</p> 
-            <a href="#" class="intro-button">Learn more ></a>
-            <a href="#" class="intro-button">Try now!</a>
-         </div>
-    </div>
-
-    <div class="description">
         
-        <div class="heading">
-            <h3>Special-offers</h3>
-        </div>
-        <div class="punch-line">
-            <p>"Savor the Flavor: Limited Time Offer at Mumma's Kitchen! Don't Miss Out!"</p>
-        </div>
-        <div class="special-offers">
-            <div class="card-container">
-                <img src="./Assets/special-offer_1.jpg" class="cards">
-                <div class="card-content">
-                    <p><b>Chilli Paneer</b></p>
-                    <p>Indulge in the fiery delight of our Chilli Paneer - a taste sensation you won't forget.</p>
-                    <p>Rs. 99/-</p>
-                </div>
-            </div>
-            <div class="card-container">
-                <img src="./Assets/pav-bhaji.jpg" class="cards">
-                <div class="card-content">
-                    <p><b>Pav Bhaji</b></p>
-                    <p>Savor the authentic taste of Mumbai with every bite of our Pav Bhaji</p>
-                    <p>Rs.199/-</p>
-                </div>
-            </div>
-            <div class="card-container">
-                <img src="./Assets/special_offer3.png" class="cards">
-                <div class="card-content">
-                    <p><b>Momos and chowmein</b></p>
-                    <p>Experience the perfect blend of flavors and textures with our irresistible momos and chowmein.</p>
-                    <p>Rs.149/-</p>
-                </div>
-            </div>
-            <div class="card-container">
-                <img src="./Assets/special-offer4.jpg" class="cards">
-                <div class="card-content">
-                    <p><b>Masala Dosa</b></p>
-                    <p>Spice up your day with our sizzling Masala Dosa - a flavor explosion you won't want to miss!</p>
-                    <p>Rs 179/-</p>
-                </div>
-            </div>
-        </div>
-
         
-        <div class="heading">
-            <h3>Deals of the Day</h3>
-        </div>
-        <div class="deals">
-            <div class="card-container">
-                <img src="./Assets/monday.jpg" class="cards">
-                <div class="card-content">
-                    <p><b>Chinese Thali</b></p>
-                    <p>From sweet to savory, experience the rich tapestry of Chinese flavors in our delectable Chinese Thali.</p>
-                    <p>Rs.199/-</p>
-                </div>
-            </div>
-            <div class="card-container">
-                <img src="./Assets/tuesday.jpg" class="cards">
-                <div class="card-content">
-                    <p><b>Lunch</b></p>
-                    <p>Savor the flavors of noon, where every bite is a symphony of delight. Lunch for two persons.</p>
-                    <p>Rs.199/-</p>
-                </div>
-            </div>
-            <div class="card-container">
-                <img src="./Assets/wednesday.jpg" class="cards">
-                <div class="card-content">
-                    <p><b>North-Indian Thali</b></p>
-                    <p>Embark on a culinary journey through the heart of North India with every bite of our exquisite North Indian Thali.</p>
-                    <p>Rs.359/-</p>
-                </div>
-            </div>
-            <div class="card-container">
-                <img src="./Assets/thursday.jpg" class="cards">
-                <div class="card-content">
-                    <p><b>Fritters</b></p>
-                    <p>Crunchy Perfection: Our Signature Fritters Await!</p>
-                    <p>Rs.159/-</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="heading">
-            <h3>Our Most Liked Dishes</h3>
-        </div>
-
-        <div class="most-liked">
-            <div class="card-container">
-                <img src="./Assets/chhole_bhature.jpg" class="cards">
-                <div class="card-content">
-                    <p><b>Chhole Bhature</b></p>
-                    <p>"From our kitchen to your plate, experience the magic of homemade Chhole Bhature.</p>
-                    <p>Rs.179/-</p>
-                </div>
-            </div>
-            <div class="card-container">
-                <img src="./Assets/frech fries.jpg" class="cards">
-                <div class="card-content">
-                    <p><b>Honey Chilli Fries</b></p>
-                    <p>Tantalize your taste buds with our irresistible Honey Chilli Potatoes.</p>
-                    <p>Rs.149/-</p>
-                </div>
-            </div>
+        <div class="content">
+            <!-- Centered meditating figure using actual image -->
+            <img src="images/meditation-figure.png" alt="Woman meditating" class="meditating-figure">
             
-            <div class="card-container">
-                <img src="./Assets/pizza.jpg" class="cards">
-                <div class="card-content">
-                    <p><b>Pizza</b></p>
-                    <p>Saucy,Cheezy,Oh so easy.Fuel your senses with our gourmet pizzas.</p>
-                    <p>Rs.249/-</p>
+            <div class="menu-items">
+                <!-- Mental Health Support (top left) -->
+                <div class="menu-item mental-health">
+                    <div class="menu-icon">
+                        <img src="images/mental-health.png" alt="Mental Health Icon" class="mental-health-image">
+                    </div>
+                    <p>Mental Health Support</p>
+                </div>
+                
+                
+                <!-- Period Tracker (top right) -->
+                <div class="menu-item period-tracker">
+                    <div class="menu-icon">
+                        <svg class="period-icon" viewBox="0 0 24 24" fill="#8C527B">
+                            <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8"/>
+                        </svg>
+                    </div>
+                    <p>Period Tracker</p>
+                </div>
+                
+                <!-- Get Consultations (middle left) -->
+                <div class="menu-item consultations">
+                    <div class="menu-icon">
+                        <svg class="consultations-icon" viewBox="0 0 24 24" fill="#6B8DC1">
+                            <path d="M19,8C19.56,8 20,8.43 20,9A1,1 0 0,1 19,10C18.43,10 18,9.55 18,9C18,8.43 18.43,8 19,8M2,2V11C2,13.96 4.19,16.5 7.14,16.91C7.76,19.92 10.42,22 13.5,22A6.5,6.5 0 0,0 20,15.5V11.81C21.16,11.39 22,10.29 22,9C22,7.34 20.66,6 19,6C17.34,6 16,7.34 16,9C16,10.29 16.84,11.4 18,11.81V15.41C18,17.91 16,19.91 13.5,19.91C11.5,19.91 9.82,18.7 9.22,16.9C12,16.3 14,13.8 14,11V2H10V5H12V11A4,4 0 0,1 8,15A4,4 0 0,1 4,11V5H6V2H2Z"/>
+                        </svg>
+                    </div>
+                    <p>Get Consultations</p>
+                </div>
+                
+                <!-- Fourth Menu Item (middle right) -->
+                <div class="menu-item nutrition-right">
+                    <div class="menu-icon">
+                        <img src="images/nutrition.png" alt="Nutrition Icon" class="nutrition-image">
+                    </div>
+                    <p>Nutrition</p>
+                </div>
+                
+                <!-- Fifth Menu Item (bottom left) -->
+                <div class="menu-item nutrition-left">
+                    <div class="menu-icon">
+                        <svg class="hydration-icon" viewBox="0 0 24 24" fill="#6495ED">
+                            <path d="M12,3.77L11.25,4.61C11.25,4.61 9.97,6.06 8.68,7.94C7.39,9.82 6,12.07 6,14.23A6,6 0 0,0 12,20.23A6,6 0 0,0 18,14.23C18,12.07 16.61,9.82 15.32,7.94C14.03,6.06 12.75,4.61 12.75,4.61L12,3.77M12,6.9C12.44,7.42 12.84,7.85 13.68,9.07C14.89,10.83 16,13.07 16,14.23C16,16.45 14.22,18.23 12,18.23C9.78,18.23 8,16.45 8,14.23C8,13.07 9.11,10.83 10.32,9.07C11.16,7.85 11.56,7.42 12,6.9Z"/>
+                        </svg>
+                    </div>
+                    <p>Hydration</p>
+                </div>
+                
+                <!-- Yoga & Exercise (bottom right) -->
+                <div class="menu-item yoga">
+                     <div class="menu-icon">
+                        <img src="images/yoga.png" alt="Yoga Icon" class="yoga-image">
+                     </div>
+                <p>Yoga & Exercise</p>
                 </div>
             </div>
-            <div class="card-container">
-                <img src="./Assets/gulab jamun.jpg" class="cards">
-                <div class="card-content">
-                    <p><b>Gulab Jamun</b></p>
-                    <p>Treat yourself to a taste of pure happiness with our Gulab Jamun.A sweet treat for every ocassion</p>
-                    <p>Rs.79/-</p>
-                </div>
-            </div>
-        </div>     
-    
+        </div>
     </div>
-    <div class="explore-more">
-        <h4>Explore-More --></h4>
-    </div>
-    <br>
-    <br>
-
-    <div class="icons-container">
-        <i class="fa-brands fa-instagram icons"></i>
-        <i class="fa-brands fa-twitter icons"></i>
-        <i class="fa-brands fa-facebook icons"></i>
-    </div>
-    <br>
-    <br>
 </body>
 </html>
